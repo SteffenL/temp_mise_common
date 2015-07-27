@@ -1,4 +1,4 @@
-#include "Locale.h"
+#include <common/Locale.h>
 #include <boost/locale.hpp>
 #include <boost/filesystem/path.hpp>
 

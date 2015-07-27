@@ -33,7 +33,7 @@
     <ClCompile Include="src\StandardPaths_msw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="include\common\Locale.cpp">
+    <ClCompile Include="src\Locale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\thirdparty\pugixml-1.2\src\pugixml.cpp">

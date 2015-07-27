@@ -24,7 +24,7 @@
   <ItemGroup>
     <ClCompile Include="..\thirdparty\nowide\src\iostream.cpp" />
     <ClCompile Include="..\thirdparty\pugixml-1.2\src\pugixml.cpp" />
-    <ClCompile Include="include\common\Locale.cpp" />
+    <ClCompile Include="src\Locale.cpp" />
     <ClCompile Include="src\Backup.cpp" />
     <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\my_console_output_buffer.cpp" />
