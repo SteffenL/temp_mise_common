@@ -1,4 +1,4 @@
-#include <common/Registry.h>
+#include <mise_common/Registry.h>
 #include <Windows.h>
 #include <WinReg.h>
 #include <stdexcept>

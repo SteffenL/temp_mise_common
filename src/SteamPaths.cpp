@@ -1,7 +1,7 @@
-#include <common/SteamPaths.h>
+#include <mise_common/SteamPaths.h>
 #include <boost/filesystem.hpp>
 #include <memory>
-#include <common/Registry.h>
+#include <mise_common/Registry.h>
 #include <nowide/convert.hpp>
 
 namespace common {
