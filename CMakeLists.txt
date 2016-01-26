@@ -26,6 +26,6 @@ file(GLOB_RECURSE Sources
 add_library(${TARGET_NAME} STATIC ${Sources})
 
 target_include_directories(${TARGET_NAME}
-    PUBLIC "${CMAKE_SOURCE_DIR}/include"
-    PUBLIC "${CMAKE_SOURCE_DIR}/thirdparty/nowide"
+    PUBLIC "include"
+    PUBLIC "thirdparty/nowide"
 )
