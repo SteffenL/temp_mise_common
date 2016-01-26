@@ -13,7 +13,7 @@
 #define LSTATUS LONG
 #endif
 
-namespace common {
+namespace mise_common {
 
 class RegistryImpl
 {

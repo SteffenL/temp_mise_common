@@ -6,7 +6,7 @@
 #include <Windows.h>
 #include <vector>
 
-namespace common {
+namespace mise_common {
 
 std::string StandardPaths::GetExecutablePath() {
     std::vector<wchar_t> buffer;

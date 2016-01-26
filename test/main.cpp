@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::cout << "EXE path: " << StandardPaths::GetExecutablePath() << "\n";
+    std::cout << "EXE path: " << mise_common::StandardPaths::GetExecutablePath() << "\n";
     std::cout << "Test OK.\n";
     return 0;
 }

@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace common {
+namespace mise_common {
 
 class SteamPaths
 {

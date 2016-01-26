@@ -3,7 +3,7 @@
 #include <boost/filesystem.hpp>
 #include <cassert>
 
-namespace common {
+namespace mise_common {
 
 Backup::Backup(const std::string& backupDir) : m_backupDir(backupDir) {}
 

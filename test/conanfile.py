@@ -8,7 +8,11 @@ class RunConanTestConan(ConanFile):
 
     def build(self):
         cmake = CMake(self.settings)
-        self.run('cmake . %s' % cmake.command_line)
+        print("************ cmake command line: %s" % cmake.command_line)
+        # Throws error if the CMake command line contains the following: -DCONAN_COMPILER="Visual Studio"
+        self.run("cmake . %s" % cmake.command_line)
+        # This works:
+        #self.run('cmake . -G "Visual Studio 14"')
         self.run("cmake --build . %s" % cmake.build_config)
 
     def imports(self):

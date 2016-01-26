@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <sstream>
 
-namespace common {
+namespace mise_common {
 
 int Log::sm_indentLevel = 0;
 LogLevel::type Log::sm_logLevelFilter = LogLevel::Info;

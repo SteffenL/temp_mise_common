@@ -27,5 +27,5 @@ add_library(${TARGET_NAME} STATIC ${Sources})
 
 target_include_directories(${TARGET_NAME}
     PUBLIC "include"
-    PUBLIC "thirdparty/nowide"
+    PRIVATE "thirdparty/nowide"
 )

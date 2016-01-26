@@ -3,7 +3,7 @@
 #include <boost/filesystem/path.hpp>
 
 
-namespace common {
+namespace mise_common {
 
 void SetupLocale()
 {

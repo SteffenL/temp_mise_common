@@ -5,7 +5,7 @@
 #include <string>
 #include <streambuf>
 
-namespace common {
+namespace mise_common {
 
 struct LogLevel
 {

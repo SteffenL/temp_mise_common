@@ -3,7 +3,7 @@
 #include <string>
 #include <memory>
 
-namespace common {
+namespace mise_common {
 
 struct RegWow64Flag
 {

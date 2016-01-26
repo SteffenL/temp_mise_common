@@ -6,7 +6,7 @@
 #include <vector>
 #include <Windows.h>
 
-namespace common {
+namespace mise_common {
 
 int my_console_output_buffer::write(char const *p,int n)
 {

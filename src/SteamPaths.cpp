@@ -4,7 +4,7 @@
 #include <mise_common/Registry.h>
 #include <nowide/convert.hpp>
 
-namespace common {
+namespace mise_common {
 
 SteamPaths::SteamPaths() {}
 
@@ -12,7 +12,7 @@ SteamPaths::~SteamPaths() {}
 
 std::string SteamPaths::GetAppInstallPath(unsigned int steamId)
 {
-    using namespace common;
+    using namespace mise_common;
     namespace fs = boost::filesystem;
 
     const std::string regPath("HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App " + std::to_string(steamId) + "\\InstallLocation");

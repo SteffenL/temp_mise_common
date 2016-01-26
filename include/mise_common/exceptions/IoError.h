@@ -2,7 +2,7 @@
 
 #include <stdexcept>
 
-namespace common {
+namespace mise_common {
 
 class IoError : public std::runtime_error
 {

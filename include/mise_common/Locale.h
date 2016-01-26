@@ -1,6 +1,6 @@
 #pragma once
 
-namespace common {
+namespace mise_common {
 
 extern void SetupLocale();
 

@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace common {
+namespace mise_common {
 
 class my_console_output_buffer : public std::streambuf {
 public:

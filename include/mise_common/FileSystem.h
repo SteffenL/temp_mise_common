@@ -8,7 +8,7 @@
 
 #include <boost/filesystem.hpp>
 
-namespace common { namespace filesystem {
+namespace mise_common { namespace filesystem {
     using namespace boost::filesystem;
 }}
 
@@ -16,7 +16,7 @@ namespace common { namespace filesystem {
 
 #include <filesystem>
 
-namespace common { namespace filesystem {
+namespace mise_common { namespace filesystem {
     using namespace std::tr2::sys;
 }}
 
@@ -32,6 +32,6 @@ namespace common { namespace filesystem {
 // For now, always use boost because we need UTF-8 support for paths, and there appears to be no such thing in VC++ 2013
 #include <boost/filesystem.hpp>
 
-namespace common { namespace filesystem {
+namespace mise_common { namespace filesystem {
     using namespace boost::filesystem;
 }}
