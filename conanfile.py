@@ -11,17 +11,14 @@ class MiseCommonConan(ConanFile):
 
     def build(self):
         cmake = CMake(self.settings)
-        if not os.path.exists("build"):
-            os.mkdir("build")
-        os.chdir("build")
-        self.run('cmake "%s" %s' % (self.conanfile_directory, cmake.command_line))
+        self.run('cmake . %s' % cmake.command_line)
         self.run("cmake --build . %s" % cmake.build_config)
 
     def package(self):
         self.copy(pattern="*.h", dst="include", src="include")
 
-        self.copy(pattern="*.dll", dst="bin", src=".")
-        self.copy(pattern="*.lib", dst="lib", src=".")
+        self.copy(pattern="*.dll", dst="bin", src="bin")
+        self.copy(pattern="*.lib", dst="lib", src="lib")
 
     def package_info(self):
         self.cpp_info.libs = ["mise_common"]
